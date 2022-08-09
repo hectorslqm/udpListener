@@ -1,0 +1,3 @@
+
+[LISTENING]:: Server is listening on ('0.0.0.0', 2100)
+<socket.socket fd=4, family=AddressFamily.AF_INET, type=SocketKind.SOCK_DGRAM, proto=0, laddr=('0.0.0.0', 2100)>
