@@ -39,7 +39,7 @@ def start():
     #Begin each thread
     for openSocket in sockets:
         #We require a thread for each socket to listen
-        thread = threading.Thread(target=handle_client, args=(serverAddresses[openSocket],sockets[openSocket]))
+        thread = threading.Thread(target=handle_client, args=(sockets[openSocket]))
         thread.start()
 
 if __name__ == '__main__':
